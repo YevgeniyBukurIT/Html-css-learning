@@ -1,0 +1,45 @@
+.box {
+    float: right;
+    width: 200px;
+    height: 200px;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    background: #F1F1F1;
+    position: center;
+}
+
+.hr {
+    float: left;
+    width: 100%;
+    border: 0;
+    height: 2px;
+    top: calc(25% - 2px);
+    background: #DDDDDD;
+    position: center;
+}
+
+hr:nth-of-type(2) {
+    top: calc(50% - 2px)
+}
+
+hr:nth-of-type(3) {
+    top: calc(75% - 2px)
+}
+
+.line_vert_1, .line_vert_2, .line_vert_3 {
+    float: left;
+    width: 2px;
+    border: 0;
+    height: 100%;
+    background: #DDDDDD;
+    margin: 0 0 0 calc(25% - 2px);
+}
+
+
+
+.olDown{
+    color: gold;
+}
+
+
+
