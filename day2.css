@@ -36,9 +36,23 @@ hr:nth-of-type(3) {
 }
 
 
-
-.olDown{
+.olDown {
     color: gold;
+}
+
+.letter {
+    color: red; /* Красный цвет символов */
+    font-size: 50px; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+    top: 5px; /* Сдвиг сверху */
+}
+
+.text {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+
 }
 
 

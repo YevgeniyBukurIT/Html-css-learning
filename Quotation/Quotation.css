@@ -1,0 +1,11 @@
+.quotation{
+    quotes: " '' " " '' ";
+}
+
+.quotation:before{
+    content: open-quote;
+}
+
+.quotation:after {
+    content: close-quote;
+}
