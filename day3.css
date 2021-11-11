@@ -13,10 +13,40 @@
     border-left: 5px solid gold;
     border-right: 5px solid chartreuse;
 
+}
 
 
+.countryTable td {
+    border: 5px solid cyan;
+    width: auto;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid lightgoldenrodyellow;
+    background: rgb(0, 0, 255);
+    color: #ffffff;
+}
+
+.carsTable  {
+
+    width: 100%; /* Ширина 100% */
+    text-align: center; /* Выравнивание по центру */
+    /* border: 2px solid #000000 */ /* Равно трем строкам ниже */
+    border-width: 2px; /* Толщина рамки */
+    border-style: double; /* Стиль рамки */
+    border-color: #000000; /* Цвет рамки */
 
 }
+
+.carsTable tr:nth-child(2n) {
+    background: rgb(105, 0, 105); /* Фон фиолетовый */
+    color: #ec2121; /* Цвет текста белый */
+    padding: 10px; /* Поля 10px */
+}
+
+.carsTable td{
+    border: #ec2121 1px solid;
+}
+
+
 
 
 
