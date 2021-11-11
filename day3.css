@@ -1,0 +1,23 @@
+.numbersTable td  {
+    border: 2px solid red;
+    width: auto;
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid coral;
+    padding: 10px;
+
+
+}
+
+.numbersTable {
+    width: auto;
+    border-left: 5px solid gold;
+    border-right: 5px solid chartreuse;
+
+
+
+
+}
+
+
+
+
