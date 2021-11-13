@@ -7,6 +7,13 @@
 </head>
 <body>
 
+<header>
+    <div>
+        HEADER
+    </div>
+</header>
+<hr>
+
 <form>
     <div>
         <textarea placeholder="Write pls"></textarea>
@@ -87,7 +94,7 @@
     </fieldset>
 </form>
 <hr>
-
+<article>
 <form>
     <div>
         <select>
@@ -115,5 +122,52 @@
         </select>
     </div>
 </form>
+<hr>
+</article>
+
+<footer>
+    <div>
+        <cite>FOOTER</cite>
+    </div>
+</footer>
+<hr>
+
+<form>
+<div>
+<canvas  id="firstCanvas" width="200px" height="200px">
+    <p>My canvas</p>
+    <script>
+        var canvas = document.getElementById("firstCanvas")
+        var ctx = canvas.getContext("2d")
+
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect (10, 10, 550, 500);
+    </script>
+
+</canvas>
+</div>
+</form>
+<hr>
+
+<form>
+<div class="audioTag">
+    <audio controls autoplay loop>
+        <source src="../assets/audio/Minecraft.mp3">
+    </audio>
+</div>
+</form>
+<hr>
+
+<form>
+<div class="videoTag">
+    <video controls >
+        <source src="../assets/video/videoplayback.mp4">
+    </video>
+    <input type="submit" value="Stop">
+</div>
+</form>
+<hr>
+
+
 </body>
 </html>
