@@ -1,0 +1,23 @@
+form {
+    background: bisque;
+    padding: 10px;
+
+}
+
+div {
+    padding-left: 50%;
+    padding-right: 50%;
+
+}
+
+form.textareaTag textarea {
+    background: #80e50a;
+    color: #0002ff;
+    margin: 0;
+    width: 125px;
+    height: 90px;
+
+
+
+
+}
