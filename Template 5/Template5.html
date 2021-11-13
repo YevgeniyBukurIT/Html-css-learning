@@ -9,7 +9,7 @@
 
 <form>
     <div>
-    <textarea placeholder="Write pls"></textarea>
+        <textarea placeholder="Write pls"></textarea>
     </div>
     <div>
         <input id="1" type="reset">
@@ -30,8 +30,9 @@
         <input id="6" type="time">
     </div>
     <div>
-        <input id="7" type="text" list="list">
+        <input id="7" placeholder="drop-down list" type="text" list="list">
         <datalist id="list">
+
             <option>text 1</option>
             <option>text 2</option>
             <option>text 3</option>
@@ -47,6 +48,72 @@
         <textarea placeholder="ModifyTextarea" rows="15" cols="15"></textarea>
     </div>
 </form>
+<hr>
 
+<form>
+    <div class="labelTag">
+        <input placeholder="input 1" id="name"><label for="name">Text 1</label>
+        <label><input placeholder="input 2" type="checkbox"></label>
+
+        <label>
+            <input type="checkbox">
+            <input type="checkbox">
+            Text 2
+        </label>
+    </div>
+</form>
+<hr>
+
+<form id="form1" method="POST">
+    <div>
+        <select size="5" multiple name="name[]">
+            <option disabled>Какие имена вам нравятся?</option>
+            <option selected value="Никакие">Никакие</option>
+            <option value="Иван">Иван</option>
+            <option value="Петр">Петр</option>
+            <option value="Николай">Николай</option>
+        </select>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+<hr>
+
+<form>
+    <fieldset title="input">
+        <legend align="center">Checkboxes</legend>
+        <input type="checkbox">First checkbox
+        <input type="checkbox">Second checkbox
+        <input type="checkbox">Third checkbox
+    </fieldset>
+</form>
+<hr>
+
+<form>
+    <div>
+        <select>
+            <option>Месяца года</option>
+            <optgroup label="Лето">
+                <option>Июнь</option>
+                <option>Июль</option>
+                <option>Август</option>
+            </optgroup>
+            <optgroup label="Осень">
+                <option>Сентябрь</option>
+                <option>Октябрь</option>
+                <option>Ноябрь</option>
+            </optgroup>
+            <optgroup label="Зима">
+                <option>Декабрь</option>
+                <option>Январь</option>
+                <option>Февраль</option>
+            </optgroup>
+            <optgroup label="Весна">
+                <option>март</option>
+                <option>апрель</option>
+                <option>май</option>
+            </optgroup>
+        </select>
+    </div>
+</form>
 </body>
 </html>
