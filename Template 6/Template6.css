@@ -81,3 +81,14 @@ a > b {
 div.text p span {
     color: #80e50a;
 }
+
+a.myLink {
+    color: black;
+}
+
+a.myLink:visited {
+    color: gold;
+}
+
+p:first-child { color: red }
+b:first-child { color: green }
