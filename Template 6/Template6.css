@@ -73,3 +73,11 @@ h1 span {
 p b span {
     color: lightseagreen;
 }
+
+a > b {
+    color: black;
+}
+
+div.text p span {
+    color: #80e50a;
+}
