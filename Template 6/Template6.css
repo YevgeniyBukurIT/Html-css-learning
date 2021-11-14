@@ -26,16 +26,50 @@ h1, p {
     color: aqua;
 }
 
-.firstDiv {
-    height: 500px;
-    width: 500px;
+div.firstDiv {
+    height: 300px;
+    width: 300px;
     background: #ec2121;
 
 }
 
-.secondDiv {
+div.secondDiv {
     background: aqua;
     height: 200px;
     width: 200px;
 
+}
+
+form.formTag{
+    padding-left: 40%;
+}
+
+a[target] {
+    color: #e400ff;
+}
+
+a[title] {
+    color: darkorange;
+}
+
+a[target][title]{
+    color: cornflowerblue;
+}
+
+a[target='_blank'] {
+    color: black;
+}
+
+p span {
+    color: lightsteelblue;
+    font-weight: bold;
+}
+
+h1 span {
+    color: navajowhite;
+    font-weight: bolder;
+}
+
+p b span {
+    color: lightseagreen;
 }
