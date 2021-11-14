@@ -1,0 +1,41 @@
+.example {
+    width: 100px; /* ширина */
+    padding: 20px; /* отступы внутри */
+    background: #0a520d; /* фон */
+    color: #ffffff; /* цвет текста */
+    text-align: center; /* размещение текста */
+}
+
+h1, p {
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bold {
+    color: black;
+    font-weight: bold;
+}
+
+.colour, .bold {
+    color: #ec2121;
+    font-weight: 900;
+}
+
+#styleID {
+    color: aqua;
+}
+
+.firstDiv {
+    height: 500px;
+    width: 500px;
+    background: #ec2121;
+
+}
+
+.secondDiv {
+    background: aqua;
+    height: 200px;
+    width: 200px;
+
+}
