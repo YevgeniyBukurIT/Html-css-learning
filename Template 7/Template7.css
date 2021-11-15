@@ -26,6 +26,7 @@ p {
 p.letter:first-letter {
     font-size: 30px;
     color: red;
+
 }
 
 p.word:first-line {
@@ -183,6 +184,19 @@ p.text2 {
 p.text3 {
     text-decoration: underline;
 }
+
+p.prop1 {
+    all: unset;
+}
+
+div.prop2 img {
+    float: left;
+    height: 100px;
+    width: 100px;
+
+
+}
+
 
 
 
