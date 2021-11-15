@@ -1,0 +1,59 @@
+div {
+    margin-left: 40% ;
+}
+
+p.letter:first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+p.word:first-line {
+    color: #80e50a;
+}
+
+p.beforeP:before {
+    content: '- ';
+}
+
+p.afterP:after {
+    content: '!';
+}
+
+p.inheritance {
+    color: red;
+}
+
+b.firsBoldText {
+     color: #000000;
+ }
+
+h1 {
+    color: darkturquoise !important;
+}
+
+h1 {
+    color: black;
+}
+
+div.firstBlock {
+    background: gold;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+div.secondBlock {
+    background: #DDDDDD;
+    width: 250px;
+    height: 250px;
+    margin-left: 125px;
+}
+
+div img {
+    height: 125px;
+    width: 125px;
+    margin-left: 62.5px;
+
+}
+
+
