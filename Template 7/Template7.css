@@ -40,6 +40,8 @@ div.firstBlock {
     width: 500px;
     height: 500px;
     margin-left: 200px;
+
+
 }
 
 div.secondBlock {
@@ -47,13 +49,58 @@ div.secondBlock {
     width: 250px;
     height: 250px;
     margin-left: 125px;
+
 }
 
 div img {
     height: 125px;
     width: 125px;
     margin-left: 62.5px;
+    margin-top: 50px;
 
 }
 
+div.lightcoral p.numbers {
+ color: rgb(33, 12, 255);
+}
+
+div p.percent {
+    color: rgb(13%, 5%, 100%) ;
+}
+
+div p.sixteen {
+    color: #210CFF;
+}
+
+div.lengthUnitsBlock {
+    margin-left: 0 ;
+    font-size: 30pt;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, #ff0057);
+}
+
+div p.f1 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+div p.f2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+div p.f3 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+div p.f4 {
+    font-size: 30px;
+    font-family: Impact, serif;
+}
+
+div p.f5 {
+    font-size: 30px;
+    font-family: Tahoma, serif;
+}
 
