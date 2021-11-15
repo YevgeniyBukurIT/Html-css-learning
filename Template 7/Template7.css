@@ -1,5 +1,26 @@
+@font-face {
+font-family: "NeutralFace";
+src: url("../assets/MyFonts/NeutralFace.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NeutralFaceBold";
+    src: url("../assets/MyFonts/NeutralFace-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 div {
-    margin-left: 40% ;
+    width: 910px;
+    margin: auto;
+    border: 1px #0022ff solid;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
 }
 
 p.letter:first-letter {
@@ -103,4 +124,66 @@ div p.f5 {
     font-size: 30px;
     font-family: Tahoma, serif;
 }
+
+div p.n1 {
+    font-style: normal;
+}
+
+div p.n2 {
+    font-style: italic;
+}
+
+div p.n3 {
+    font-style: oblique;
+}
+
+p.NeutralFace {
+    font-family: NeutralFace, cursive;
+}
+
+p.NeutralFaceBold {
+    font-family: NeutralFaceBold, cursive;
+}
+
+p.googleFont {
+    font-size: 60px;
+    font-family: 'Estonia', cursive;
+}
+
+div.textIndent p.redL {
+    margin-left: 0 ;
+    text-indent: 100px;
+    background: red;
+}
+
+p.lineH{
+    line-height: 120px;
+    background: lightseagreen;
+    font-family: Corbel, serif;
+}
+
+p.wordS {
+    word-spacing: 40px;
+}
+
+p.letterS {
+    letter-spacing: 30px;
+}
+
+p.textT {
+    text-transform: uppercase;
+}
+
+p.text1 {
+    text-decoration: line-through;
+}
+p.text2 {
+    text-decoration: overline;
+}
+p.text3 {
+    text-decoration: underline;
+}
+
+
+
 
