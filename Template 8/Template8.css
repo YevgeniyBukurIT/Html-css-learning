@@ -10,10 +10,10 @@ hr {
 }
 
 div.c1 {
-    display: none ;
+    display: none;
 }
 
-div.c2{
+div.c2 {
     text-align: center;
     border: 2px solid black;
     margin: auto;
@@ -34,13 +34,13 @@ div.c2_1 {
 p.p2_1 {
     display: inline-block;
     list-style: none;
-    border:1px solid red;
+    border: 1px solid red;
     width: 50px;
     height: 50px;
 }
 
 .verticalAlignTag {
-    height:100px;
+    height: 100px;
     display: table-cell;
     vertical-align: middle;
     border-color: red;
@@ -65,4 +65,95 @@ p.p2_1 {
     margin: auto;
 }
 
+.padding p {
+    padding-top: 30px;
+}
 
+.borderType {
+    padding: 10px;
+    border: 1px black double;
+}
+
+.borderType span {
+    margin: 10px;
+}
+
+
+.f1 {
+    border-color: black #80e50a #ec2121 #0022ff;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.f2 {
+    border: 3px black dotted;
+}
+
+.f3 {
+    border: 3px black dashed;
+}
+
+.f4 {
+    border: 3px black double;
+}
+
+.f5 {
+    border: 3px rgb(255, 0, 97) groove;
+}
+
+.f6 {
+    border: 3px rgb(255, 0, 97) ridge;
+}
+
+.f7 {
+    border: 3px rgb(255, 0, 97) inset;
+}
+
+.f8 {
+    border: 3px black outset;
+    border-radius: 400px 0px 400px 0px / 150px 0px 150px 0px;
+}
+
+.outlineType {
+    padding: 10px;
+}
+
+.outlineType span {
+    margin: 10px;
+
+}
+
+.s1 {
+    border-color: black #80e50a #ec2121 #0022ff;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.s2 {
+    border: 3px black dotted;
+}
+
+.s3 {
+    border: 3px black dashed;
+}
+
+.s4 {
+    border: 3px black double;
+}
+
+.s5 {
+    border: 3px rgb(255, 0, 97) groove;
+}
+
+.s6 {
+    border: 3px rgb(255, 0, 97) ridge;
+}
+
+.s7 {
+    border: 3px rgb(255, 0, 97) inset;
+}
+
+.s8 {
+    border: 3px black outset;
+    border-radius: 400px 0px 400px 0px / 150px 0px 150px 0px;
+}
