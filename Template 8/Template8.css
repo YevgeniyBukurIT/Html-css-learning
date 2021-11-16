@@ -217,3 +217,32 @@ p.p2_1 {
     background-size: cover;
 
 }
+
+.linearGradient {
+    height: 400px;
+    background: linear-gradient(to right, #DDDDDD, dodgerblue);
+}
+
+.radialGradient {
+    height: 400px;
+    background: radial-gradient(circle, #DDDDDD, dodgerblue);
+}
+
+.ellipseGradient {
+    height: 400px;
+    background: radial-gradient(ellipse, #DDDDDD, dodgerblue);
+}
+
+.position1 {
+    position: relative;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.position2 {
+    left: 5px;
+    top: 15px;
+    border: 20px solid transparent;
+    border-left: 20px solid red;
+    position: absolute;
+}
