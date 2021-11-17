@@ -1,0 +1,58 @@
+.block1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border: 3px red solid;
+}
+
+.block2 {
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    height: 250px;
+    width: 50%;
+    border: 3px solid black;
+
+}
+
+.block3 {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    border: 3px solid #80e50a;
+}
+
+.redBlock {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+}
+
+.greenBlock {
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: relative;
+    margin: 0 0 -150px 50px;
+    z-index: 1;
+}
+:root {
+    --myDisplay: list-item;
+    --myColour: red;
+}
+
+.list {
+    background: var(--myColour);
+    font-size: 20pt;
+}
+
+.numeric{
+    display: var(--myDisplay);
+    list-style-type: armenian;
+}
+
+.figures {
+    display: var(--myDisplay);
+    list-style-type: square;
+}
