@@ -1,0 +1,82 @@
+.tex {
+    vertical-align: -4px;
+    font-size: 16px;
+}
+
+.android {
+    background: slategray;
+    border-radius: 100%;
+}
+
+.t4 p {
+    padding-top: 20px;
+    background: #ED1C24;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    font-family: Tahoma, siref;
+}
+
+.t5 h1 {
+    color: #630;
+}
+
+.t5 h2 {
+    color: #834c15;
+}
+
+.t5 h3 {
+    color: #000000;
+}
+
+.t7 table {
+    border: black solid 1px;
+}
+
+.t7 td {
+    width: 100px;
+    border: black solid 1px;}
+
+.centre {
+    text-align: center;
+}
+
+.t8 {
+    border: 1px solid black;
+
+}
+.t8_1 {
+    background: darkcyan;
+    color: white;
+    margin-bottom: -20px;
+    margin-top: 0;
+}
+
+.t8_2 {
+    padding: 0;
+    background: #4d61ff;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
