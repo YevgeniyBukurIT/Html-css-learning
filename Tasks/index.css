@@ -59,6 +59,100 @@
     padding-left: 10px;
 }
 
+.t12 {
+    background: black;
+
+}
+
+.a1 {
+    color: #80e50a;
+}
+
+.a2 {
+    color: #ff0061;
+}
+
+.a3 {
+    color: darkcyan;
+}
+
+.t13 {
+    width: 500px;
+    height: 300px;
+    border: 20px solid;
+    -webkit-border-image: url("../assets/img/background.jpg") 10 repeat repeat;
+}
+
+.tableT16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 50px;
+    border: 2px black solid;
+}
+
+.tableT16 td {
+    border: 1px black solid;
+    text-align: center;
+    vertical-align: top;
+}
+
+td.left {
+    width: 150px;
+}
+
+.t17 {
+    font: 12pt "Times New Roman", serif;
+    color: black;
+    background: white;
+}
+
+.t17 h1{
+    color: #4d61ff;
+}
+
+.t17 h2 {
+    color: chocolate;
+}
+
+.t18 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t18_1{
+    width: 300px;
+    margin: auto;
+
+}
+
+.date {
+    padding-left: 60px;
+}
+
+.p2 {
+    padding-left: 60px;
+}
+
+.p3 {
+    padding-left: 120px;
+}
+
+.p4 {
+    padding-left: 150px;
+}
+
+.t18_1p {
+    line-height: 20px;
+}
+
+
+
+
+
+
+
 
 
 
