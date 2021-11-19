@@ -35,7 +35,8 @@
 
 .t7 td {
     width: 100px;
-    border: black solid 1px;}
+    border: black solid 1px;
+}
 
 .centre {
     text-align: center;
@@ -45,6 +46,7 @@
     border: 1px solid black;
 
 }
+
 .t8_1 {
     background: darkcyan;
     color: white;
@@ -107,7 +109,7 @@ td.left {
     background: white;
 }
 
-.t17 h1{
+.t17 h1 {
     color: #4d61ff;
 }
 
@@ -121,7 +123,7 @@ td.left {
     margin-right: auto;
 }
 
-.t18_1{
+.t18_1 {
     width: 300px;
     margin: auto;
 
@@ -147,10 +149,203 @@ td.left {
     line-height: 20px;
 }
 
+.t19 {
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.t19_1 {
+    position: absolute;
+    background: #9d0303;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    left: 90px;
+    top: 40px;
+}
+
+.t20 table {
+    width: 100%;
+}
+
+.t20 td {
+    border: 1px solid black;
+}
+
+.step1 {
+    background: red;
+    color: white;
+}
+
+.step2 {
+    background: orange;
+    color: grey;
+}
+
+.step3 {
+    background: yellow;
+    color: black;
+}
+
+.t21 {
+    background: #0a520d;
+    color: white;
+    width: 695px;
+}
+
+.t21 h1 {
+    padding-top: 15px;
+}
+
+:root {;
+}
+
+.t22_1 {
+    background: black;
+    width: 64px;
+    height: 64px;
+
+}
+
+.t22_1:hover {
+    background: orange;
+}
+
+.t22_2 {
+    background: #4d61ff;
+    width: 64px;
+    height: 64px;
+
+}
+
+.t22_2:hover {
+    background: orange;
+}
+
+.t22_3 {
+    background: black;
+    width: 64px;
+    height: 64px;
+}
+
+.t22_3:hover {
+    background: orange;
+}
+
+.t22_4 {
+    background: #4d61ff;
+    width: 64px;
+    height: 64px;
+
+}
+
+.t22_4:hover {
+    background: orange;
+
+}
+
+.t22_5 {
+    background: black;
+    width: 64px;
+    height: 64px;
+
+}
+
+.t22_5:hover {
+    background: orange;
+}
 
 
+.battery1 {
+    position: relative;
+    width: 140px;
+    height: 54px;
+    border: 2px solid black;
+}
 
+.battery1_1 {
+    position: absolute;
+    width: 10px;
+    height: 24px;
+    background: black;
+    top: 15px;
+    left: 140px;
 
+}
+
+.background1 {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    background: red;
+
+}
+
+.battery2 {
+    position: relative;
+    width: 140px;
+    height: 54px;
+    border: 2px solid black;
+}
+
+.battery2_1 {
+    position: absolute;
+    width: 10px;
+    height: 24px;
+    background: black;
+    top: 15px;
+    left: 140px;
+
+}
+
+.background2 {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background: orange;
+
+}
+
+.battery3 {
+    position: relative;
+    width: 140px;
+    height: 54px;
+    border: 2px solid black;
+}
+
+.battery3_1 {
+    position: absolute;
+    width: 10px;
+    height: 24px;
+    background: black;
+    top: 15px;
+    left: 140px;
+
+}
+
+.background3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+
+}
+
+div.battery1 {
+    display: block;
+    margin: 5px;
+}
+
+div.battery2 {
+    margin: 5px;
+}
+
+div.battery3 {
+    margin: 5px;
+}
 
 
 
