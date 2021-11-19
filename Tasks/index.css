@@ -336,19 +336,105 @@ td.left {
 
 div.battery1 {
     display: block;
-    margin: 5px;
+    margin: 10px;
 }
 
 div.battery2 {
-    margin: 5px;
+    margin: 10px;
 }
 
 div.battery3 {
-    margin: 5px;
+    margin: 10px;
 }
 
+.t25 {
+    background: #0a520d;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(#ffffff,white);
+}
 
+.button_t26 {
+    background: pink;
+    border-radius: 30px;
+    width: 80px;
+    height: 20px;
+}
 
+.button_t27_1 {
+    background: linear-gradient(dodgerblue, cornflowerblue);
+    border-radius: 10px;
+}
+
+.button_t27_2 {
+    background: radial-gradient(#35ff1e, cornflowerblue);
+    border-radius: 5em;
+}
+
+.button_t27_3 {
+    background: linear-gradient(#9d077a, #522a39);
+    border-radius: 5pt;
+}
+
+.button_t27_4 {
+    background: linear-gradient(#e4f502, #f5073f);
+    border-radius: 5%;
+}
+
+.button_t27_5 {
+    background: linear-gradient(#00ffb9, #005bff);
+    border-radius: 5fr;
+}
+
+.t28_1 fieldset {
+    background: #d28850;
+}
+
+.t28_1 legend {
+    color: #000000;
+    font-family: Tahoma, serif;
+}
+
+.t29 {
+    width: 800px;
+
+    border-left: yellow 10px solid;
+    border-top: yellow 10px solid;
+    border-right: orange 10px solid;
+    border-bottom: orange 10px solid;
+}
+
+.t29_1 {
+    font-size: 40pt;
+    border-left: orange 10px solid;
+    border-top: orange 10px solid;
+    border-right: yellow 10px solid;
+    border-bottom: yellow 10px solid;
+
+}
+
+.t29_1 p {
+    padding-left: 60px
+}
+
+.t30 {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 380px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.circles {
+    position: absolute;
+    top: 350px;
+    left: 240px;
+}
+
+.circles input[type='radio'] {
+    width: 15px;
+    height: 15px;
+}
 
 
 
