@@ -637,8 +637,7 @@ input:valid {
 
 
 .t42_1 {
-    margin: 10px;
-    float:left;
+    display: inline-block;
 
 
 }
@@ -646,9 +645,9 @@ input:valid {
 .t42_1 {
     width: 150px;
     height: 200px;
+    margin: 10px;
 
 }
-
 .t42_1 p {
     font-size: 16pt;
 }
@@ -682,8 +681,32 @@ input:valid {
     box-shadow: -8px 4px 60px -22px #3A343D;;
 }
 
+.t43 {
+    position: relative;
+}
+
+.t43 img {
+    position: absolute;
+    border: 10px solid peachpuff;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.t43_border {
+    position: absolute;
+    border: 10px solid peachpuff;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 40px;
+    z-index: 0;
+    transform: rotate(86deg);
 
 
+}
 
 
 
